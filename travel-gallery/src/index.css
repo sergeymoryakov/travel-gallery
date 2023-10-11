@@ -1,0 +1,10 @@
+body {
+    font-family: "Arimo", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 110px 80px 80px 125px;
+    width: 1150px;
+    border: 1px dashed red;
+}
