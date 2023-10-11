@@ -1,12 +1,16 @@
 import React from "react";
 import tbilisiImg from "../../assets/tbilisi.jpg";
 
-function SpecialsCard() {
+function SpecialsCard(props) {
     return (
         <div>
-            <div>By Bus - Group: 10</div>
-            <img src={tbilisiImg} alt="Image: Tbilisi" />
-            <div>Tbilisi, October -- $830.00</div>
+            <div>
+                {props.by} - {props.group}
+            </div>
+            <img src={props.imgSrc} alt={props.imgAlt} />
+            <div>
+                {props.destination}, {props.date} -- ${props.price}
+            </div>
         </div>
     );
 }

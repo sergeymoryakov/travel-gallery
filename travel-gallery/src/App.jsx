@@ -7,11 +7,11 @@ import FooterSection from "./components/FooterSection/FooterSection";
 function App() {
     return (
         <div className="container">
-            <HeaderSection />
-            <Paragraph />
+            {/* <HeaderSection /> */}
+            {/* <Paragraph /> */}
             <SpecialsSection />
-            <Paragraph />
-            <FooterSection />
+            {/* <Paragraph /> */}
+            {/* <FooterSection /> */}
         </div>
     );
 }
