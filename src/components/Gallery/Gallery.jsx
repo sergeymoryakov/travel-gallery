@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../Gallery/Card";
+import "./Gallery.css";
 
 function Gallery({ seasonSpecials }) {
     return (

@@ -1,0 +1,22 @@
+button {
+    padding: 15px 20px;
+    width: fit-content;
+    color: #181818;
+    /* font-family: Arimo; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 93.523%; 14.964px */
+    letter-spacing: -0.64px;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 3px;
+    border-radius: 100px;
+    background: #fff59d;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+}
