@@ -1,5 +1,4 @@
 import React from "react";
-import tbilisiImg from "../../assets/tbilisi.jpg";
 
 function SpecialsCard(props) {
     return (

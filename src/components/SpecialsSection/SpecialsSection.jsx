@@ -2,6 +2,7 @@ import React from "react";
 import Title from "../Titles/Title";
 import SpecialsCard from "./SpecialsCard";
 import Button from "../Buttons/Button";
+import TestCard from "../TestElements/testCard";
 
 import tbilisiImg from "../../assets/tbilisi.jpg";
 import istanbulImg from "../../assets/istanbul.jpg";
@@ -12,7 +13,10 @@ function SpecialsSection() {
     return (
         <div>
             <Title text="Season Specials" />
-            <SpecialsCard
+
+            <TestCard />
+
+            {/* <SpecialsCard
                 imgSrc={tbilisiImg}
                 imgAlt="Tbilisi View"
                 by="By Bus"
@@ -47,7 +51,7 @@ function SpecialsSection() {
                 destination="Phuket"
                 date="September"
                 price="1350.00"
-            />
+            /> */}
             <Button text="Check All Destinations" />
         </div>
     );
