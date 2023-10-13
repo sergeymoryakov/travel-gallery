@@ -7,7 +7,8 @@ import { seasonSpecials } from "../../data/data";
 function SpecialsSection() {
     return (
         <div>
-            <Title text="Season Specials" />
+            <Title text="Destinations" />
+            {/* <Title text="Season Specials" /> */}
 
             <Gallery seasonSpecials={seasonSpecials} />
 
