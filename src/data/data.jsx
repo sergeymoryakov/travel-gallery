@@ -1,7 +1,13 @@
 import tbilisiIng from "../../src/assets/tbilisi.jpg";
 import istanbulImg from "../../src/assets/istanbul.jpg";
-import dubaiIng from "../../src/assets/dubai.jpg";
-import phuketIng from "../../src/assets/phuket.jpg";
+import dubaiImg from "../../src/assets/dubai.jpg";
+import phuketImg from "../../src/assets/phuket.jpg";
+import canaryImg from "../../src/assets/canary.jpeg";
+import goaImg from "../../src/assets/goa.jpeg";
+import maleImg from "../../src/assets/male.jpeg";
+import nancyImg from "../../src/assets/nancy.jpeg";
+import rhodesImg from "../../src/assets/rhodes.jpeg";
+import sigiriyaImg from "../../src/assets/sigiriya.jpeg";
 
 export const seasonSpecials = [
     {
@@ -10,6 +16,7 @@ export const seasonSpecials = [
         imgAlt: "Tbilisi View",
         by: "By Bus",
         group: 10,
+        isHot: false,
         destination: "Tbilisi",
         date: "April",
         price: 830.0,
@@ -20,28 +27,97 @@ export const seasonSpecials = [
         imgAlt: "Istanbul View",
         by: "By Air",
         group: "",
+        isHot: false,
         destination: "Istanbul",
         date: "November",
         price: 1100.0,
     },
     {
         name: "Dubai",
-        imgSrc: dubaiIng,
+        imgSrc: dubaiImg,
         imgAlt: "Dubai View",
         by: "By Air",
         group: 15,
+        isHot: true,
         destination: "Dubai",
         date: "June",
         price: 2200.0,
     },
     {
         name: "Phuket",
-        imgSrc: phuketIng,
+        imgSrc: phuketImg,
         imgAlt: "Phuket View",
-        by: "By Bus",
+        by: "By Air/Ferry",
         group: 11,
+        isHot: true,
         destination: "Phuket",
         date: "September",
         price: 1350.0,
+    },
+    {
+        name: "Canary",
+        imgSrc: canaryImg,
+        imgAlt: "Canary View",
+        by: "By Air/Ferry",
+        group: 12,
+        isHot: false,
+        destination: "Canary",
+        date: "October",
+        price: 1450.0,
+    },
+    {
+        name: "Goa",
+        imgSrc: goaImg,
+        imgAlt: "Goa View",
+        by: "By Air/Ferry",
+        group: 7,
+        isHot: true,
+        destination: "Goa",
+        date: "October",
+        price: 515.0,
+    },
+    {
+        name: "Male",
+        imgSrc: maleImg,
+        imgAlt: "Male View",
+        by: "By Air/Ferry",
+        group: 8,
+        isHot: false,
+        destination: "Male",
+        date: "October",
+        price: 900.0,
+    },
+    {
+        name: "Nancy",
+        imgSrc: nancyImg,
+        imgAlt: "Nancy View",
+        by: "By Air",
+        group: 0,
+        isHot: false,
+        destination: "Nancy",
+        date: "October",
+        price: 950.0,
+    },
+    {
+        name: "Rhodes",
+        imgSrc: rhodesImg,
+        imgAlt: "Rhodes View",
+        by: "By Air",
+        group: 0,
+        isHot: false,
+        destination: "Rhodes",
+        date: "December",
+        price: 1350.0,
+    },
+    {
+        name: "Sigiriya",
+        imgSrc: sigiriyaImg,
+        imgAlt: "Sigiriya View",
+        by: "By Air/Ferry",
+        group: 4,
+        isHot: false,
+        destination: "Sigiriya",
+        date: "November",
+        price: 2150.0,
     },
 ];

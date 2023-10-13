@@ -19,6 +19,7 @@ function Card({ destination }) {
                             <img src={peopleIcon} alt="" />
                         </div>
                     )}
+                    {destination.isHot && <div className="pipkaAmber">Hot</div>}
                 </div>
                 <div className="bottomMessage">
                     <div>

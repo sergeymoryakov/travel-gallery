@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "../Titles/Title";
-import Button from "../Buttons/Button";
+// import Button from "../Buttons/Button";
 import Gallery from "../Gallery/Gallery";
 import { seasonSpecials } from "../../data/data";
 
@@ -11,7 +11,7 @@ function SpecialsSection() {
 
             <Gallery seasonSpecials={seasonSpecials} />
 
-            <Button text="Check All Destinations" />
+            {/* <Button text="Check All Destinations" /> */}
         </div>
     );
 }
